@@ -1,7 +1,10 @@
-import itertools as it
+# 소수 만들기
+# Level 1
 
 # 시간복잡도 O(N^3)
 # Combinations(조합) 사용
+
+import itertools as it
 
 def solution(nums):
     answer = 0;
