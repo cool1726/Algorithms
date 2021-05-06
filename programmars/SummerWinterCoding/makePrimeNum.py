@@ -1,5 +1,8 @@
 import itertools as it
 
+# 시간복잡도 O(N^3)
+# Combinations(조합) 사용
+
 def solution(nums):
     answer = 0;
     npr = list(it.combinations(nums, 3))
